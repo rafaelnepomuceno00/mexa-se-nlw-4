@@ -1,5 +1,5 @@
 import '../styles/global.css'
-import {  ChallengesProvider } from '../contexts/ChallengeContext'
+import { ChallengesProvider } from '../contexts/ChallengeContext'
 
 function MyApp({ Component, pageProps }) {
 
@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
 
 
         <ChallengesProvider>
-            <Component{...pageProps} />
+                <Component{...pageProps} />
         </ChallengesProvider>
     )
 
